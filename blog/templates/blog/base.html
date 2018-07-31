@@ -7,8 +7,9 @@
 		 <link rel="stylesheet" href="{% static 'css/blog.css' %}">
 		 <link href="https://fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
 	</head>
-	<body>
+	<body>		
 		<div class="Header">
+		    <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
 		    <h1><a href="/">Django Girls Blog</a></h1>
 		</div>
 		<div class="content container">
