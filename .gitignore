@@ -1,6 +1,5 @@
 # Carpeta de mi entorno virtual
 env/
-db.sqlite3 # La base de datos
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
